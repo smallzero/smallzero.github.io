@@ -3,6 +3,7 @@ layout: post
 title:  "Security Awareness terhadap serangan Phishing"
 date:   2020-05-13 17:00:00 +0700
 categories: Security Hacking
+excerpt: Serangan cyber yang paling banyak dilakukan dan memiliki tingkat keberhasilan serangan yang paling banyak adalah "Phishing". Serangan phishing perlu kita waspadai karena sering menggunakan media yang sering kita pakai, seperti email dan pesan di telepon genggam kita. <br/><br/>Pada 2 Januari 1996 oleh AOL Usenet newsgroup, istilah Phishing pertama kali dibukukan dan dicatat. Phishing adalah teknik penipuan dengan mengelabui target dengan maksud untuk mencuri akun target. Pencurian bisa berupa data penting target seperti username, password dan kartu kredit dengan cara pengelabuan melalui komunikasi elektronik. Pengelabuan dilakukan menggunakan email spoofing(membuat pesan email palsu dengan alamat pengirim palsu) atau aplikasi chat, dan biasanya sering dengan menggunakan website palsu yang tampilannya sangat mirip dengan aslinya untuk ditujukan ke target langsung.
 ---
 Serangan cyber yang paling banyak dilakukan dan memiliki tingkat keberhasilan serangan yang paling banyak adalah "Phishing". Serangan phishing perlu kita waspadai karena sering menggunakan media yang sering kita pakai, seperti email dan pesan di telepon genggam kita. 
 
@@ -54,9 +55,15 @@ Terakhir, jika kita sudah terjebak ke dalam serangan phishing. Segera ganti pass
 
 
 **Referensi**:
+
 *https://thedefenceworks.com/blog/top-5-security-awareness-topics-for-2020/*
+
 *The “2019 Cybersecurity Breaches Survey”, (https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/875799/Cyber_Security_Breaches_Survey_2019_-_Main_Report_-_revised.pdf)*
+
 *https://www.cnnindonesia.com/teknologi/20200503034921-185-499476/akun-tokopedia-bocor-awas-ancaman-scam-dan-phising*
+
 *https://katadata.co.id/berita/2020/05/11/ukm-indonesia-jadi-target-192-ribu-serangan-siber-selama-wfh*
+
 *https://inet.detik.com/security/d-1196824/phishing-apa-dan-bagaimana-cara-kerjanya*
+
 *https://www.kashflow.com/handle-phishing-attack/*

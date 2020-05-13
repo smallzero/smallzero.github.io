@@ -5,7 +5,7 @@
   </head>
   <body>
     <main class="container">
-      <section class="about">
+      <section class="about" align="center">
         <a href="/"><img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}"></a>
         <h2 id="title">
           <a href="/">{{ site.plainwhite.name }}</a>
@@ -87,6 +87,12 @@
             </ul>
           </nav>
         {%- endif -%}
+
+        <p style="padding:0px 10px 0px 10px;">
+          <i>
+              {{site.description}}
+          </i>          
+        </p>
 
         <p>&copy;
           {{ "now" | date: "%Y" }}</p>
