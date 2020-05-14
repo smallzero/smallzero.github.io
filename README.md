@@ -2,9 +2,8 @@
 
 Simplistic jekyll portfolio-style theme for writers.
 
-**Demo**: [thelehhman.com](https://thelehhman.com)
+**Demo**: [smallzero.github.io](https://smallzero.github.io)
 
-![plainwhite theme preview](/screenshot.png)
 
 ## Installation on Github Pages
 
@@ -141,6 +140,3 @@ To add a custom directory to your theme-gem, please edit the regexp in `plainwhi
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-## More themes
-
-- [Texture](https://github.com/thelehhman/texture)
