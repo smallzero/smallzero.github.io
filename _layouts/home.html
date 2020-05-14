@@ -32,7 +32,7 @@ layout: default
         </div>
         <div class="post">
           {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
+		{{ post.excerpt }} &nbsp;<a href="{{ post.url | relative_url }}">More..</a>
           {%- endif -%}
         </div>
       </li>
