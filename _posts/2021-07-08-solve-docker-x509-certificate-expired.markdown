@@ -13,7 +13,18 @@ error during connect: Get https://192.168.99.100:2376/v1.37/containers/json?all=
 
 Saat menjalankan "docker-machine start" normal tidak ada masalah.
 
-Solusi dari error di atas adalah sebagai berikut :
+Solusi dari error di atas adalah pertma kita harus tahu nama docker-machine kita apa, dengan perintah sebagai berikut:
+```
+$ docker-machine.exe ls
+```
+Contoh punya saya nama docker-machine adalah "default"
+```
+$ docker-machine.exe ls
+NAME      ACTIVE   DRIVER       STATE     URL                         SWARM   DOCKER        ERRORS
+default   *        virtualbox   Running   tcp://192.168.99.100:2376           v18.06.0-ce
+```
+
+Lalu perbarui certificate dengan cara di bawah ini:
 ```
 $ docker-machine.exe regenerate-certs --client-certs -f default
 ```
@@ -32,5 +43,14 @@ Copying certs to the local machine directory...
 Copying certs to the remote machine...
 Setting Docker configuration on the remote daemon...
 ```
+
+Dan hasilnya sudah tidak ada error lagi
+```
+$ docker ps
+CONTAINER ID        IMAGE                  COMMAND                  CREATED             STATUS              PORTS                               NAMES
+368d9baa26c4        adminer                "entrypoint.sh docke…"   5 weeks ago         Up 1 second         0.0.0.0:8036->8080/tcp              docker_adminer_1
+ddc8fb5f3ea7        docker_mysql-service   "docker-entrypoint.s…"   5 weeks ago         Up 1 second         0.0.0.0:3306->3306/tcp, 33060/tcp   docker_mysql-service_1
+```
+
 
 Good luck :)
