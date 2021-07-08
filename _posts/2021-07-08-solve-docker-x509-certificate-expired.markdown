@@ -3,7 +3,7 @@ layout: post
 title:  "Solve Docker x509: certificate has expired or is not yet valid"
 date:   2021-07-08 21:00:00 +0700
 categories: Problem Solving
-excerpt: Sudah lama tidak membuka docker desktop versi pertama di windows dan menemukan error sebagai berikut :
+excerpt: Sudah lama tidak membuka docker desktop versi pertama di windows dan menemukan error sebagai berikut 
 ```
 $ docker ps -a
 error during connect: Get https://192.168.99.100:2376/v1.37/containers/json?all=1: x509: certificate has expired or is not yet valid
