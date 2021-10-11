@@ -2,7 +2,7 @@
 layout: post
 title:  "Debug Network Request using Chrome Dev Tool"
 date:   2021-10-11 21:00:00 +0700
-categories: Problem Solving
+categories: Tips
 excerpt: Cara debug network request menggunakan chrome Dev tool.
 ---
 Terkadang perlu kebutuhan yang cepat untuk debug request dari sebuah web. Solusi yang paling gampang dan cepat yang saya tahu menggunakan F12 dan memasukan script di bawah ini, yaitu menggunkan event function *"beforeunload"*.
