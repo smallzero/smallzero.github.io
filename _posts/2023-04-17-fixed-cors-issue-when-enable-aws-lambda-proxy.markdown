@@ -2,7 +2,7 @@
 layout: post
 title: "Fixed CORS Issue when Enable AWS Lambda Proxy in AWS API Gateway"
 categories: AWS
-exceprt: To fix CORS issue when enable AWS Lambda Proxy in AWS API Gateway. You need to add header response in your lambda. It's different if you are not enable Lambda Proxy, you dont need to add the header response. This the example how to add header response of AWS Lamda in JAVA
+excerpt: To fix CORS issue when enable AWS Lambda Proxy in AWS API Gateway. You need to add header response in your lambda. It's different if you are not enable Lambda Proxy, you dont need to add the header response. This the example how to add header response of AWS Lamda in JAVA
 ---
 To fix CORS issue when enable AWS Lambda Proxy in AWS API Gateway. You need to add header response in your lambda. It's different if you are not enable Lambda Proxy, you dont need to add the header response. This the example how to add header response of AWS Lamda in JAVA :
  ```
