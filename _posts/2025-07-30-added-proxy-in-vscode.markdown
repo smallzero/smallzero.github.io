@@ -25,3 +25,4 @@ You can add these settings to your user settings or your workspace's `settings.j
     "http.proxyStrictSSL": false,
     "http.noProxy": "localhost,127.0.0.1"
 }
+```
