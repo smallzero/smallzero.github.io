@@ -39,7 +39,8 @@ layout: default
     {%- endfor -%}
       <li>
         {%- if site.posts.size > 5 -%}
-        <div class="view-all-posts">
+
+        <div class="view-all-posts" style="text-align: center; padding-top: 100px;">
           <a href="{{ '/posts/' | relative_url }}">View all posts →</a>
         </div>
         {%- endif -%}
