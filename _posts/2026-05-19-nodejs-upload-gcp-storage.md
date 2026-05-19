@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Stop Upload Timeouts in Node.js: Direct Browser Uploads to Google Cloud Storage (Express and HTML)
+title: Stop Upload Timeouts in Node.js: Direct Browser Uploads to Google Cloud Storage
 categories: Programming
-excerpt: Large file uploads through a Node.js/Express backend often end in request timeout. If this sounds familiar, the fix is usually architectural—not just increasing timeout settings. In this article, I’ll show how to move uploads directly from browser to Google Cloud Storage (GCS) using a Signed POST Policy, while your Express API only handles secure policy generation.
+excerpt: Large file uploads through a Node.js Express backend often end in request timeout. If this sounds familiar, the fix is usually architectural—not just increasing timeout settings. In this article, I’ll show how to move uploads directly from browser to Google Cloud Storage (GCS) using a Signed POST Policy, while your Express API only handles secure policy generation.
 ---
 
 # Stop Upload Timeouts in Node.js: Direct Browser Uploads to Google Cloud Storage (Express + HTML)
