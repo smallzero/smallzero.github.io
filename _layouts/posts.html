@@ -10,10 +10,10 @@ layout: default
 {%- if site.posts.size > 0 -%}
   <ul class="posts">
     <li>
-      <h1 id="posts-label">posts</h1>
+      <h1 id="posts-label">all posts</h1>
     </li>
 
-    {%- for post in site.posts limit: 5-%}
+    {%- for post in site.posts-%}
       <li>
         {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
         <a class="post-link" href="{{ post.url | relative_url }}">
@@ -31,7 +31,7 @@ layout: default
         </div>
         <div class="post">
           {%- if site.show_excerpts -%}
-		{{ post.excerpt }} &nbsp;<a href="{{ post.url | relative_url }}">More..</a>
+		      {{ post.excerpt }} &nbsp;<a href="{{ post.url | relative_url }}">More..</a>
           {%- endif -%}
         </div>
       </li>
