@@ -4,7 +4,7 @@ title: "How to Configure Proxy Settings in VS Code"
 categories: Programming
 excerpt: Sometimes you need to configure Visual Studio Code to use a specific proxy, especially to bypass your system's default proxy settings. This can be useful for development, testing, or accessing specific networks. Here is a sample configuration to set up a local proxy directly within VS Code.
 ---
-# How to Configure Proxy Settings in VS Code
+
 
 Sometimes you need to configure Visual Studio Code to use a specific proxy, especially to bypass your system's default proxy settings. This can be useful for development, testing, or accessing specific networks.
 

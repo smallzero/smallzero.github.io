@@ -4,7 +4,6 @@ title: Building an AI Coding Assistant with Claude for Spring Boot, AWS EKS & Po
 categories: Programming
 excerpt: A step-by-step guide to creating a domain-expert AI assistant powered by Claude (Anthropic), with optional OpenClaw agent framework. Focus building an AI Coding Assistant for Spring Boot, AWS EKS and PostgreSQL
 ---
-# Building an AI Coding Assistant with Claude for Spring Boot, AWS EKS & PostgreSQL
 
 > A step-by-step guide to creating a domain-expert AI assistant powered by Claude (Anthropic), with optional OpenClaw agent framework.
 

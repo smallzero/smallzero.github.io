@@ -4,7 +4,7 @@ title: "Understanding SOLID Principles and Clean Code"
 categories: Programming
 excerpt: SOLID principles and Clean Code practices help create maintainable, scalable Java software. SOLID guides class design (single responsibility, extensibility, loose coupling), while Clean Code focuses on readable names, small methods, clear errors, and consistent style, making change safer and faster.
 ---
-# Understanding SOLID Principles and Clean Code
+
 SOLID principles and Clean Code practices help create maintainable, scalable Java software. SOLID guides class design (single responsibility, extensibility, loose coupling), while Clean Code focuses on readable names, small methods, clear errors, and consistent style, making change safer and faster.
 
 ## 1. SOLID Principles
