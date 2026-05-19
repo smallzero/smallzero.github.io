@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
 {%- endif -%}
@@ -38,13 +37,4 @@ layout: default
       </li>
     {%- endfor -%}
   </ul>
-  {%- if site.posts.size > 5 -%}
-  <div class="view-all-posts">
-    <a href="{{ '/view-all-posts/' | relative_url }}">View all posts →</a>
-  </div>
-  {%- endif -%}
-
-  <!-- <p class="feed-subscribe"><svg class="svg-icon orange">
-		<use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-	</svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p> -->
 {%- endif -%}
