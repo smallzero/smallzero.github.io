@@ -37,11 +37,14 @@ layout: default
         </div>
       </li>
     {%- endfor -%}
+      <li>
+        {%- if site.posts.size > 5 -%}
+        <div class="view-all-posts">
+          <a href="{{ '/posts/' | relative_url }}">View all posts →</a>
+        </div>
+        {%- endif -%}
+      </li>
   </ul>
-  {%- if site.posts.size > 5 -%}
-  <div class="view-all-posts">
-    <a href="{{ '/view-all-posts/' | relative_url }}">View all posts →</a>
-  </div>
-  {%- endif -%}
+  
 
 {%- endif -%}
