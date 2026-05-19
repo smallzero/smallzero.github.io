@@ -1,3 +1,3 @@
 ---
-layout: view-all-posts
+layout: posts
 ---
