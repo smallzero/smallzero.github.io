@@ -2,7 +2,7 @@
 layout: post
 title: Build Your Own Claude Code — Running Entirely on Your Own Machine
 categories: ai, local-llm, coding-agents, ollama, agent-skills, mcp
-excerpt: Models, harnesses, skills, and agents: the four layers of a local coding agent in 2026
+excerpt: Models, harnesses, skills, and agents the four layers of a local coding agent in 2026
 ---
 
 If you have ever looked at Claude Code and thought *"I want this, but with the model running on my own hardware"* — that is a much more achievable goal in mid-2026 than it was a year ago. The pieces are all open now, and more importantly, they are cleanly separated into layers you can swap independently.
