@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Build Your Own Claude Code — Running Entirely on Your Own Machine
-categories: ai, local-llm, coding-agents, ollama, agent-skills, mcp
+categories: ai local-llm coding-agents ollama agent-skills mcp
 excerpt: Models, harnesses, skills, and agents the four layers of a local coding agent in 2026
 ---
 
